@@ -15,4 +15,4 @@ Ctrl+Shift+M快捷启用，只有在代码编辑界面才会生效。
 
 ![](http://ww2.sinaimg.cn/large/b29e5633gw1ezqv9qp6eeg209n0941kx.gif)
 
-![image](https://github.com/wendyeq／MikuSwift/raw/master/Screenshots/about.png)
+![image](https://github.com/wendyeq/MikuSwift/raw/master/Screenshots/about.png)
