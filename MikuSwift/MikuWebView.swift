@@ -10,8 +10,8 @@ import WebKit
 import Foundation
 import AppKit
 
-enum MusicType {
-    case Default   //默认模式，慢动作时音乐播放会变慢
+enum MusicType: Int {
+    case Default = 0 //默认模式，慢动作时音乐播放会变慢
     case Normal    //正常模式，慢动作时音乐播放不变慢
     case Mute      //静音模式
 }

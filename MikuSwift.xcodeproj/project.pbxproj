@@ -15,6 +15,7 @@
 		AE5D9E8D1C4D4C4C0042D488 /* MikuWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5D9E8B1C4D4C4C0042D488 /* MikuWebView.swift */; };
 		AE5D9E911C4D4D050042D488 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5D9E901C4D4D050042D488 /* JRSwizzle.m */; };
 		AE5DB09D1C4FCE030042D488 /* miku-dancing.coding.io in Resources */ = {isa = PBXBuildFile; fileRef = AE5DB09C1C4FCE030042D488 /* miku-dancing.coding.io */; };
+		AECD6A6F1C513879005618FD /* MikuConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECD6A6E1C513879005618FD /* MikuConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		AE5D9E8F1C4D4D050042D488 /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
 		AE5D9E901C4D4D050042D488 /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
 		AE5DB09C1C4FCE030042D488 /* miku-dancing.coding.io */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "miku-dancing.coding.io"; sourceTree = "<group>"; };
+		AECD6A6E1C513879005618FD /* MikuConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MikuConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				AE5D9E5F1C4D4B650042D488 /* MikuSwift.swift */,
+				AECD6A6E1C513879005618FD /* MikuConfig.swift */,
 				AE27E6DD1C5002ED0035E3EA /* MikuMenu.swift */,
 				AE5D9E8A1C4D4C4C0042D488 /* MikuDragView.swift */,
 				AE5D9E8B1C4D4C4C0042D488 /* MikuWebView.swift */,
@@ -170,6 +173,7 @@
 				AE5D9E8C1C4D4C4C0042D488 /* MikuDragView.swift in Sources */,
 				AE5D9E911C4D4D050042D488 /* JRSwizzle.m in Sources */,
 				AE5D9E6A1C4D4BC20042D488 /* MikuHook.swift in Sources */,
+				AECD6A6F1C513879005618FD /* MikuConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

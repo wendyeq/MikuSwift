@@ -54,15 +54,15 @@ class MikuDragView: WebView,WebFrameLoadDelegate {
     }
     
     func webView(sender: WebView!, didFinishLoadForFrame frame: WebFrame!) {
+        let mikuConfig = MikuConfig.getSharedInstance()
         self.mikuWebView?.setPlayingTime(10)
-        self.mikuWebView?.setIsKeepDancing(true)
-        self.mikuWebView?.setMusicType(MusicType.Normal)
-        
+        self.mikuWebView?.setIsKeepDancing(mikuConfig.isEnableKeepDancing())
+        self.mikuWebView?.setMusicType(MusicType(rawValue: mikuConfig.getMusicType())!)
     }
+    
     override func drawRect(dirtyRect: NSRect) {
         super.drawRect(dirtyRect)
     }
-    
     
 }
 

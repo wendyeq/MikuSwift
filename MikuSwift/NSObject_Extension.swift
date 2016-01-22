@@ -19,7 +19,7 @@ extension NSObject {
     }
     
     func mikuViewDidLoad() {
-        // Fixme
+        // hook不了
     }
     
     
@@ -28,6 +28,7 @@ extension NSObject {
         replacementString: String?) -> Bool {
         let mikuDragView = MikuDragView.getSharedInstance()
         mikuDragView.mikuWebView!.setPlayingTime(10)
+        // 不要问为什么这么多superview
         textView.superview!.superview!.superview!.addSubview(mikuDragView)
         return self.mikuTextView(textView, shouldChangeTextInRange: affectedCharRange, replacementString: replacementString)
     }
